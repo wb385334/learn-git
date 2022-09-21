@@ -116,7 +116,7 @@ And Ta-da! You've officially cloned the repository onto your local machine. Navi
 
 ### Step 4: Create a feature branch on your local repo
 
-Now that you're on your local repository, you can focus on making our changes. Your assignment is to create a folder, add code to the same file, make pull requests, pull down latest changes, and manage any merge conflicts. Yes, very complicated. It's basic, but the goal is to learn git. You'll create a folder with a name of your choice with a `.py` file inside. Feel free to name your script whatever you want, commit it to your local repo, push your changes to your fork, and open a repo. Phew, that's a lot! Don't worry, you'll focus on creating the feature branch in this step.
+Now that you're on your local repository, you can focus on making our changes. Your assignment is to create a folder, add code to the same file, make pull requests, pull down latest changes, and manage any merge conflicts. It's basic, but the goal is to learn git. You'll create a folder with a name of your choice with a `.py` file inside. Feel free to name your script whatever you want, commit it to your local repo, push your changes to your fork, and open a repo. Phew, that's a lot! Don't worry, you'll focus on creating the feature branch in this step.
 
 1. Make sure you're in the root of your local repo. Use `cd` to get there. To make sure you're on the master branch, run `git status`. The output will show you your current branch. If you're not on your default branch, run the command in step three to switch back. We'll come back to `git status` in a minute.
 
@@ -132,9 +132,7 @@ And voila! You've created your feature branch. You're all set to make these chan
 
 ### Step 5: Add a folder structure and upload to your repository
 
-In this step, you're going to add a script. The important part is that you're going to make changes locally, commit those changes to our feature branch, and ultimately you'll be pushing these changes to our fork.
-
-Before we jump in. Everyone in your group number off from 1-4. We will be splitting up work to make it more collaborative and experience how it feels to contribute to the same repo as your group.
+In this step, you're going to add a folder and an empty python file. The important part is that you're going to make changes locally, commit those changes to our feature branch, and ultimately you'll be pushing these changes to our fork.
 
 Person 1:
 
@@ -215,7 +213,7 @@ Our next goal is to add our commits to the master branch of our newly created `l
 
 This Pull Request needs to be approved by the owners of the repository before it can be _merged_ into master. Different companies have different approval processes (example: multiple reviewers from different teams), but our use case is simple. You're simply focused on opening the pull request.
 
-1. Open a request by going to the link in the last step of Step 6. It should look like `https://github.com/<insert-your-github-username>/learn-git/pull/new/{insert-branch-name}`. This should take you to a page with the title of **Open a pull request**.
+1. Open a request by going to the link in the last step of Step 6. It should look like `https://github.com/{insert-your-github-username}/learn-git/pull/new/{insert-branch-name}`. This should take you to a page with the title of **Open a pull request**.
 2. Name your Pull Request whatever you want. Add some comments if you'd like.
 3. Once you've added your PR name and comments, go ahead and click the `Create Pull Request`.
 
@@ -227,7 +225,7 @@ Now that the pull request has been created, it needs to be reviewed, approved, a
 
 Since Person 1 has given edit permissions to the whole group and they cannot approve their own pull request. Let's have the person with the nearest birthday in the remaining group (Person 2, 3, or 4) be the approver.
 
-1. Navigate to the Pull Requests tab on GitHub, the url should look something like `https://github.com/<insert-your-github-username>/learn-git/pulls`
+1. Navigate to the Pull Requests tab on GitHub, the url should look something like `https://github.com/{insert-your-github-username}/learn-git/pulls`
 2. Navigate to Files Changed tab
 3. Click Review Changes, click `Approve` radio button, and add a comment if you would like, and press submit!
 
